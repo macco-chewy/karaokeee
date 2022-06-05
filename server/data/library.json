@@ -1,0 +1,18 @@
+{
+  "artists": {
+    "ae4f58a0-87d2-417c-8aa4-7e405b04007b": {
+      "name": "Test Artist 1",
+      "tracks": [
+        "efa66245-70e3-45e6-9a9e-d72f197479c8"
+      ]
+    }
+  },
+  "tracks": {
+    "efa66245-70e3-45e6-9a9e-d72f197479c8": {
+      "title": "Test Track 1",
+      "artists": [
+        "ae4f58a0-87d2-417c-8aa4-7e405b04007b"
+      ]
+    }
+  }
+}

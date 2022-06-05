@@ -1,0 +1,18 @@
+{
+  "name": "karaokeee-server",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build-ui": "cd ../ui && npm run build && rm -rf ../server/public/* && mv -f ./build/* ../server/public/. && cd ../server",
+    "start": "npm run build-ui && node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  }
+}
